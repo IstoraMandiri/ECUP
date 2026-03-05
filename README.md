@@ -14,8 +14,6 @@ This repository provides structured checklists, stakeholder mappings, and timeli
 
 Ethereum Classic uses the [ECIP (Ethereum Classic Improvement Proposal)](https://github.com/ethereumproject/ECIPs) process to propose and coordinate protocol changes. The process is deliberately off-chain and permissionless — anyone can submit a proposal as a GitHub pull request. Proposals progress through stages (Draft, Last Call, Accepted, Final, Active) and require rough consensus from the community before client developers embed activation logic into release builds.
 
-There is no on-chain voting. Consent ultimately rests with the network's users, miners, and node operators who choose which software to run.
-
 ## Repository Structure
 
 ```
@@ -32,7 +30,8 @@ fork-coordination/
     ├── bitcoin.md            # How Bitcoin coordinates forks (BIPs, miner signaling)
     ├── ethereum.md           # How Ethereum coordinates forks (EIPs, ACD calls)
     ├── cardano.md            # How Cardano coordinates forks (CIPs, on-chain governance)
-    └── tezos.md              # How Tezos coordinates forks (self-amendment)
+    ├── tezos.md              # How Tezos coordinates forks (self-amendment)
+    └── signalling.md         # On-chain consensus signaling mechanisms (UAHF, miner signaling, CarbonVote)
 ```
 
 ## Checklists
@@ -61,6 +60,7 @@ The `research/` folder documents how other blockchain networks handle fork gover
 - [Ethereum](research/ethereum.md) — EIP process, All Core Devs calls, coordinated upgrades
 - [Cardano](research/cardano.md) — CIP process, on-chain governance (CIP-1694), hard fork combinator
 - [Tezos](research/tezos.md) — On-chain self-amendment, no hard forks by design
+- [Signalling](research/signalling.md) — On-chain consensus signaling: miner signaling (BIP 8/9), UAHF, CarbonVote, coin voting
 
 ## Prior ETC Hard Forks
 
