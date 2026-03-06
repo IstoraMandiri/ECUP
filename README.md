@@ -62,18 +62,16 @@ The `research/` folder documents how other blockchain networks handle fork gover
 - [Tezos](research/tezos.md) — On-chain self-amendment, no hard forks by design
 - [Signalling](research/signalling.md) — On-chain consensus signaling: miner signaling (BIP 8/9), UAHF, CarbonVote, coin voting
 
-## Prior ETC Hard Forks
+## TODO
 
-| Fork | ECIP | Block | Date | Purpose |
-|------|------|-------|------|---------|
-| Gotham | ECIP-1017 | 5,000,000 | Dec 2017 | Monetary policy — 210.7M ETC cap, 20% emission reduction per era |
-| Atlantis | ECIP-1054 | 8,772,000 | Sep 2019 | Spurious Dragon + Byzantium compatibility |
-| Agharta | ECIP-1056 | 9,573,000 | Jan 2020 | Constantinople + St. Petersburg compatibility |
-| Phoenix | ECIP-1088 | 10,500,839 | Jun 2020 | Istanbul compatibility |
-| Thanos | ECIP-1099 | 11,700,000 | Nov 2020 | DAG recalibration for 3GB miners (ETChash) |
-| Magneto | ECIP-1103 | 13,189,133 | Jul 2021 | Berlin compatibility |
-| Mystique | ECIP-1104 | 14,525,000 | Feb 2022 | Partial London compatibility (2 of 5 EIPs) |
-| Spiral | ECIP-1109 | 19,250,000 | Jan 2024 | Shanghai compatibility |
+- Research previous fork coordination process and participants
+- Document current ETC client landscape and maintainer contacts
+- Identify active mining pools and their upgrade track records
+- Map exchange and infrastructure provider readiness processes
+- Draft a template ECIP for proposing the next network upgrade
+- Establish a communication plan for coordinating future forks
+- Compile contact list for all stakeholders (developers, miners, exchanges, node operators, dapp teams)
+- Maintain fork-specific contact checklist to track outreach and acknowledgement per upgrade
 
 ## Contributing
 
